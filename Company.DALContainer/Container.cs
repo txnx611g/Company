@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 using Company.DAL;
 using Company.IDAL;
 
+/*StaffDAL完成后，我们要完成的是DALContainer,该类库主要是创建IDAL的实例对象,我们这里可以自己写一个工厂也可以通过一些第三方的IOC框架,这里使用Autofac 
+ * 1.选中DALContainer=>右键=>管理Nuget程序包=>搜索Autofac=>下载安装对应,net版本的AutoFac 
+ * 2.安装完成后,我们在DALContainer下添加一个名为Container的类.*/
 namespace Company.DALContainer
 {
     public class Container

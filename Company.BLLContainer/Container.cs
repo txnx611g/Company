@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Company.BLL;
 using Company.IBLL;
-
+/*子类完成后,我们选中BLLContainer添加一个名为Container的类,添加对Autofac.dll 的引用,该类是创建IBLL的实例*/
 namespace Company.BLLContainer
 {
     public class Container
